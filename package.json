@@ -4,6 +4,9 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
+    "build": "parcel build",
+    "serve": "parcel serve",
+    "start": "parcel",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
