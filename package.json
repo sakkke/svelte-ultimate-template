@@ -1,0 +1,19 @@
+{
+  "name": "svelte-ultimate-template",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakkke/svelte-ultimate-template.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sakkke/svelte-ultimate-template/issues"
+  },
+  "homepage": "https://github.com/sakkke/svelte-ultimate-template#readme"
+}
