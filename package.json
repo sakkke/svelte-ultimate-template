@@ -23,6 +23,7 @@
     "@pyoner/svelte-types": "^3.4.4-2",
     "parcel": "^2.0.0",
     "parcel-transformer-svelte": "github:schuetzm/parcel-transformer-svelte#fixes",
+    "svelte-preprocess": "^4.9.8",
     "typescript": "^4.4.4"
   },
   "dependencies": {
