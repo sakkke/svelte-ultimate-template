@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sakkke/svelte-ultimate-template/issues"
   },
-  "homepage": "https://github.com/sakkke/svelte-ultimate-template#readme"
+  "homepage": "https://github.com/sakkke/svelte-ultimate-template#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
 }
