@@ -23,6 +23,7 @@
   "devDependencies": {
     "@jest/types": "^27.2.5",
     "@pyoner/svelte-types": "^3.4.4-2",
+    "@testing-library/jest-dom": "^5.14.1",
     "jest": "^27.3.1",
     "parcel": "^2.0.0",
     "parcel-transformer-svelte": "github:schuetzm/parcel-transformer-svelte#fixes",
