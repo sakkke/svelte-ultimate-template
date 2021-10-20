@@ -5,6 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "build": "parcel build",
+    "lint": "eslint .",
     "serve": "parcel serve",
     "start": "parcel",
     "test": "jest",
