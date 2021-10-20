@@ -1,6 +1,18 @@
 {
 	"extends": "standard-with-typescript",
+  "overrides": [
+    { "files": ["*.svelte"], "processor": "svelte3/svelte3" }
+  ],
+  "parser": "@typescript-eslint/parser",
 	"parserOptions": {
+    "extraFileExtensions": [".svelte"],
 		"project": "./tsconfig.json"
-	}
+	},
+  "plugins": [
+    "@typescript-eslint",
+    "svelte3"
+  ],
+  "settings": {
+    "svelte3/typescript": true
+  }
 }
