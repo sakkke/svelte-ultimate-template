@@ -33,6 +33,7 @@
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-svelte3": "^3.2.1",
     "eslint-watch": "^7.0.0",
     "jest": "^27.3.1",
     "parcel": "^2.0.0",
