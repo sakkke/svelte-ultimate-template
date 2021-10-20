@@ -1,3 +1,3 @@
 import Index from './Index.svelte'
 
-new Index({ target: document.body })
+export default new Index({ target: document.body })

@@ -4,10 +4,10 @@ export default async (): Promise<Config.InitialOptions> => ({
   moduleFileExtensions: [
     'js',
     'svelte',
-    'ts',
+    'ts'
   ],
   transform: {
     '^.+\\.svelte$': 'svelte-jester',
-    '^.+\\.ts$': 'ts-jest',
-  },
+    '^.+\\.ts$': 'ts-jest'
+  }
 })
