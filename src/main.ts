@@ -1,3 +1,3 @@
-import Index from './Index.svelte'
+import App from './App.svelte'
 
-export default new Index({ target: document.body })
+export default new App({ target: document.body })
