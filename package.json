@@ -6,7 +6,7 @@
   "scripts": {
     "build": "parcel build",
     "lint": "eslint .",
-    "lint:watch": "esw --color -w",
+    "lint:watch": "esw --color --ext .js,.svelte,.ts -w",
     "serve": "parcel serve",
     "start": "parcel",
     "test": "jest",
