@@ -4,8 +4,10 @@
 
 - Svelte
 - TypeScript
+- SugarSS
 - Jest
 - ESLint with [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
+- Stylelint
 
 ## Start
 
@@ -26,6 +28,12 @@ npm run test:watch
 
 ```sh
 npm run lint:watch
+```
+
+### Run Stylelint in watch mode
+
+```sh
+npm run lint:style:watch
 ```
 
 ## License
