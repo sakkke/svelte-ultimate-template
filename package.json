@@ -6,6 +6,7 @@
   "scripts": {
     "build": "parcel build",
     "lint": "eslint .",
+    "lint:all": "run-s lint lint:style",
     "lint:style": "stylelint -f verbose '**/*.svelte'",
     "lint:watch": "esw --color --ext .js,.svelte,.ts -w",
     "serve": "parcel serve",
