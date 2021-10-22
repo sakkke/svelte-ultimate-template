@@ -1,0 +1,4 @@
+{
+  "customSyntax": "sugarss",
+  "extends": ["stylelint-config-standard", "stylelint-config-html/svelte"]
+}
