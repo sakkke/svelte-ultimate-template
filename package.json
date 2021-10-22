@@ -9,7 +9,7 @@
     "lint:all": "run-s lint lint:style",
     "lint:style": "stylelint -f verbose '**/*.svelte'",
     "lint:style:watch": "onchange '**/*.svelte' -- npm run lint:style",
-    "lint:watch": "esw --color --ext .js,.svelte,.ts -w '**/*.svelte'",
+    "lint:watch": "esw --color --ext .js,.svelte,.ts --ignore-path .gitignore -w '**/*.{js,svelte,ts}'",
     "serve": "parcel serve",
     "start": "parcel",
     "test": "jest",
