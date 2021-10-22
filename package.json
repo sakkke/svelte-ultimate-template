@@ -40,6 +40,7 @@
     "parcel": "^2.0.0",
     "parcel-transformer-svelte": "github:schuetzm/parcel-transformer-svelte#fixes",
     "postcss": "^8.3.11",
+    "precss": "^4.0.0",
     "sugarss": "^2.0.0",
     "svelte-jester": "^2.1.5",
     "svelte-preprocess": "^4.9.8",
