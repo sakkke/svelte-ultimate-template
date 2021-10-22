@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "lint:all": "run-s lint lint:style",
     "lint:style": "stylelint -f verbose '**/*.svelte'",
+    "lint:style:watch": "onchange '**/*.svelte' -- npm run lint:style",
     "lint:watch": "esw --color --ext .js,.svelte,.ts -w",
     "serve": "parcel serve",
     "start": "parcel",
