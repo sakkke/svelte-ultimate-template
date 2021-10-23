@@ -1,3 +1,4 @@
 .parcel-cache/
 node_modules/
-public/
+public/*
+!public/browserconfig.xml
