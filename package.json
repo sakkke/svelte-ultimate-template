@@ -27,6 +27,8 @@
   "homepage": "https://github.com/sakkke/svelte-ultimate-template#readme",
   "devDependencies": {
     "@jest/types": "^27.2.5",
+    "@parcel/packager-raw-url": "^2.0.0",
+    "@parcel/transformer-webmanifest": "^2.0.0",
     "@pyoner/svelte-types": "^3.4.4-2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/svelte": "^3.0.3",
