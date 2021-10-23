@@ -15,6 +15,7 @@
 ```sh
 npx degit https://github.com/sakkke/svelte-ultimate-template [project-name]
 cd [project-name]
+git init
 npm i
 npm run serve
 ```
