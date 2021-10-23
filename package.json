@@ -4,14 +4,14 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build",
+    "build": "parcel build --dist-dir public",
     "lint": "eslint '**/*.svelte'",
     "lint:all": "run-s lint lint:style",
     "lint:style": "stylelint -f verbose '**/*.svelte'",
     "lint:style:watch": "onchange '**/*.svelte' -- npm run lint:style",
     "lint:watch": "esw --color --ext .js,.svelte,.ts --ignore-path .gitignore -w '**/*.{js,svelte,ts}'",
-    "serve": "parcel serve",
-    "start": "parcel",
+    "serve": "parcel serve --dist-dir public",
+    "start": "parcel --dist-dir public",
     "test": "jest",
     "test:watch": "jest --watch"
   },
