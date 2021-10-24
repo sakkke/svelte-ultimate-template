@@ -1,4 +1,4 @@
-{
+module.exports = {
 	"extends": "standard-with-typescript",
   "overrides": [
     { "files": ["*.svelte"], "processor": "svelte3/svelte3" }
