@@ -7,3 +7,8 @@
 <main>
   <h1>Hello {name}</h1>
 </main>
+
+<style lang="postcss">
+  h1
+    text-align: center
+</style>
