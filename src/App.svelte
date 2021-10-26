@@ -1,5 +1,5 @@
 <script lang="ts">
-  import 'destyle.css'
+  import 'destyle.css/destyle.min.css'
 
   const name: string = 'svelte-ultimate-template'
 </script>
