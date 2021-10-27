@@ -10,6 +10,7 @@
 - Stylelint
 - PWA
 - HMR
+- Automated testing using GitHub Actions
 
 ## Start
 
