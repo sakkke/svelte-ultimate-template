@@ -15,7 +15,7 @@
 ## Start
 
 ```sh
-npx degit https://github.com/sakkke/svelte-ultimate-template [project-name]
+npx degit sakkke/svelte-ultimate-template [project-name]
 cd [project-name]
 git init
 npm i
