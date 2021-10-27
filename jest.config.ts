@@ -6,6 +6,7 @@ export default async (): Promise<Config.InitialOptions> => ({
     'svelte',
     'ts'
   ],
+  testEnvironment: 'jsdom',
   transform: {
     '^.+\\.svelte$': 'svelte-jester',
     '^.+\\.ts$': 'ts-jest'
