@@ -1,15 +1,18 @@
 <script lang="ts">
-  import Counter from './components/Counter.svelte'
+  import Home from './routes/Home.svelte'
+  import NotFound from './routes/NotFound.svelte'
   import 'destyle.css/destyle.min.css'
+  import Router from 'svelte-spa-router'
+  import type { RouteDefinition } from 'svelte-spa-router'
 
-  const name: string = 'svelte-ultimate-template'
+  const routes: RouteDefinition = {
+    '/': Home,
+    '*': NotFound
+  }
 </script>
 
 <main>
-  <h1>Hello {name}</h1>
-  <div>
-    <Counter></Counter>
-  </div>
+  <Router {routes}></Router>
 </main>
 
 <style lang="postcss">
