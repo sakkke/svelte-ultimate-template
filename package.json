@@ -65,6 +65,7 @@
   },
   "dependencies": {
     "destyle.css": "^3.0.0",
-    "svelte": "^3.44.0"
+    "svelte": "^3.44.0",
+    "svelte-spa-router": "^3.2.0"
   }
 }
