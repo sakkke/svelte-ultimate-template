@@ -5,6 +5,7 @@
 - Svelte
 - TypeScript
 - SugarSS
+- [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
 - Jest
 - ESLint with [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
 - Stylelint
