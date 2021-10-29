@@ -12,6 +12,7 @@
 - [x] PWA
 - [x] HMR
 - [x] Automated testing using GitHub Actions
+- [ ] Support source map for CSS
 
 ## Start
 
