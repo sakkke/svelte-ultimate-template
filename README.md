@@ -2,6 +2,8 @@
 
 # Svelte Ultimate Template
 
+[Use this template on GitHub](https://github.com/sakkke/svelte-ultimate-template/generate)
+
 ## ✨ Features
 
 - [x] Parcel
