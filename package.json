@@ -4,7 +4,7 @@
   "description": "",
   "source": "src/index.html",
   "scripts": {
-    "build": "parcel build --dist-dir public",
+    "build": "parcel build --dist-dir public --public-url ./",
     "clean": "find public -type f | grep -v public/browserconfig.xml | xargs rm",
     "cmd:clear": "clear",
     "dev": "tmux new \\; send 'npm run lint:watch' C-m \\; splitw \\; send 'npm run lint:style:watch' C-m \\; splitw \\; send 'npm run test:watch' C-m \\; selectl even-horizontal \\; splitw -bf \\; send 'npm run serve' C-m",
@@ -13,8 +13,8 @@
     "lint:style": "stylelint -f verbose '**/*.svelte'",
     "lint:style:watch": "onchange '**/*.svelte' -- run-s cmd:clear lint:style",
     "lint:watch": "esw --clear --color --ext .js,.svelte,.ts --ignore-path .eslintignore -w '**/*.{js,svelte,ts}'",
-    "serve": "parcel serve --dist-dir public",
-    "start": "parcel --dist-dir public",
+    "serve": "parcel serve --dist-dir public --public-url ./",
+    "start": "parcel --dist-dir public --public-url ./",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
