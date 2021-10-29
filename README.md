@@ -4,6 +4,7 @@
 
 ## ✨ Features
 
+- [x] Parcel
 - [x] Svelte
 - [x] TypeScript
 - [x] SugarSS
