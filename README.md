@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/sakkke/svelte-ultimate-template/actions/workflows/main.yml/badge.svg)](https://github.com/sakkke/svelte-ultimate-template/actions/workflows/main.yml)
+
 # svelte-ultimate-template
 
 ## ✨ Features
