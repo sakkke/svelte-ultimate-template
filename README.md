@@ -26,6 +26,33 @@ npm i
 npm run dev
 ```
 
+## 🚀 Deploy
+
+`.github/workflows/main.yml`
+
+```diff
+on: push
+
+jobs:
++ deploy:
++   needs: test
++   runs-on: ubuntu-latest
++   steps:
++     - uses: actions/checkout@v2
++     - uses: actions/setup-node@v2
++       with:
++         node-version: '16'
++     - run: npm ci
++     - run: npm run build
++     - uses: peaceiris/actions-gh-pages@v3
++       with:
++         github_token: ${{ secrets.GITHUB_TOKEN }}
++         publish_dir: ./public
++
+  test:
+    ...
+```
+
 ## 📄 License
 
 Unlicense
