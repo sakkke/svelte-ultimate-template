@@ -16,7 +16,7 @@
     "serve": "parcel serve --dist-dir public",
     "start": "parcel --dist-dir public",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watchAll"
   },
   "repository": {
     "type": "git",
