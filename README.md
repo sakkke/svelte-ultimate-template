@@ -16,7 +16,7 @@
 - [x] Automated testing using GitHub Actions
 - [ ] Support source map for CSS
 
-## 🚀 Start
+## 🚀 Get started
 
 ```sh
 npx degit sakkke/svelte-ultimate-template [project-name]
