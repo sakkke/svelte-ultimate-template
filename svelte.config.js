@@ -10,7 +10,7 @@ module.exports = {
       if (/{/.test(css)) return { code: css }
       const { plugins, options } = postcssrc.sync()
       const { parser } = options
-      const { css: code } = await postcss(plugins).process(css, { parser })
+      const { css: code } = await postcss(plugins).process(css, { from: undefined, parser })
       return { code }
     }
   })
