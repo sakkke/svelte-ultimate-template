@@ -20,7 +20,7 @@ npx degit sakkke/svelte-ultimate-template [project-name]
 cd [project-name]
 git init
 npm i
-npm run serve
+npm run dev
 ```
 
 ### Run Jest in watch mode
