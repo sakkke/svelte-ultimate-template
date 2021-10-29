@@ -1,6 +1,6 @@
 # svelte-ultimate-template
 
-## Features
+## ✨ Features
 
 - [x] Svelte
 - [x] TypeScript
@@ -14,7 +14,7 @@
 - [x] Automated testing using GitHub Actions
 - [ ] Support source map for CSS
 
-## Start
+## 🚀 Start
 
 ```sh
 npx degit sakkke/svelte-ultimate-template [project-name]
@@ -42,6 +42,6 @@ npm run lint:watch
 npm run lint:style:watch
 ```
 
-## License
+## 📄 License
 
 Unlicense
