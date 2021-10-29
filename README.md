@@ -26,24 +26,6 @@ npm i
 npm run dev
 ```
 
-### Run Jest in watch mode
-
-```sh
-npm run test:watch
-```
-
-### Run ESLint in watch mode
-
-```sh
-npm run lint:watch
-```
-
-### Run Stylelint in watch mode
-
-```sh
-npm run lint:style:watch
-```
-
 ## 📄 License
 
 Unlicense
