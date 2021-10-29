@@ -2,16 +2,16 @@
 
 ## Features
 
-- Svelte
-- TypeScript
-- SugarSS
-- [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
-- Jest
-- ESLint with [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
-- Stylelint
-- PWA
-- HMR
-- Automated testing using GitHub Actions
+- [x] Svelte
+- [x] TypeScript
+- [x] SugarSS
+- [x] [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
+- [x] Jest
+- [x] ESLint with [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
+- [x] Stylelint
+- [x] PWA
+- [x] HMR
+- [x] Automated testing using GitHub Actions
 
 ## Start
 
