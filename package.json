@@ -1,7 +1,7 @@
 {
   "name": "svelte-ultimate-template",
   "version": "0.1.0",
-  "description": "",
+  "description": "A starter template for Progressive Web App with Svelte + TypeScript + SugarSS",
   "source": "src/index.html",
   "scripts": {
     "build": "parcel build --dist-dir public --public-url ./",
