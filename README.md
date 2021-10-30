@@ -34,6 +34,11 @@ npm i
 npm run dev
 ```
 
+### Stop `npm run dev`
+
+1. Press `<C-b>:killw<CR>`
+1. Done!
+
 ## 🚀 Deploy
 
 `.github/workflows/main.yml`
