@@ -76,6 +76,12 @@ npm run lint:style:watch
 - [ ] Update `./src/site.webmanifest`
 - [ ] Update `./README.md`
 
+Default assets created with:
+
+1. [SVGPORN](https://svgporn.com/)
+1. [Maskable.app](https://maskable.app/)
+1. [RealFaviconGenerator](https://realfavicongenerator.net/)
+
 ## 🚀 Deploy
 
 `.github/workflows/main.yml`
