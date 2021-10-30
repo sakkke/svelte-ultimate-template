@@ -31,6 +31,10 @@ A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
 
 ## 🎉 Get started
 
+**Requires:**
+
+- `tmux` (used by `npm run dev`)
+
 ```sh
 npx degit sakkke/svelte-ultimate-template [project-name]
 cd [project-name]
@@ -42,6 +46,27 @@ npm run dev
 
 1. Press `<C-b>:killw<CR>`
 1. Done!
+
+### Manually lint and test instead of `npm run dev`
+
+#### Run Jest in watch mode
+
+```sh
+npm run test:watch
+```
+
+#### Run ESLint in watch mode
+
+```sh
+npm run lint:watch
+```
+
+#### Run Stylelint in watch mode
+
+```sh
+npm run lint:style:watch
+```
+
 
 ## 🚀 Deploy
 
