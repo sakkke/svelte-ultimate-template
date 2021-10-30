@@ -7,21 +7,22 @@
 ## ✨ Features
 
 - [x] Svelte
+  - [x] [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
 - [x] TypeScript
 - [x] SugarSS
-- [x] [svelte-spa-router](https://github.com/ItalyPaleAle/svelte-spa-router)
 - [x] PWA
 
 ### ♻️ Lint and Test
 
 - [x] Jest
-- [x] ESLint with [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
+- [x] ESLint
+  - [x] [eslint-config-standard-with-typescript](https://github.com/standard/eslint-config-standard-with-typescript)
 - [x] Stylelint
 
 ### 🔨 Development
 
 - [x] Parcel
-- [x] HMR
+  - [x] HMR
 - [x] Automated testing using GitHub Actions
 - [ ] Source map support for CSS
 
