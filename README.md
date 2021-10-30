@@ -1,5 +1,5 @@
 [![.github/workflows/main.yml](https://github.com/sakkke/svelte-ultimate-template/actions/workflows/main.yml/badge.svg)](https://github.com/sakkke/svelte-ultimate-template/actions/workflows/main.yml)
-
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/sakkke/svelte-ultimate-template)
 # Svelte Ultimate Template
 
 A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
@@ -27,6 +27,7 @@ A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
   - [x] HMR
 - [x] Automated testing using GitHub Actions
 - [ ] Source map support for CSS
+- Gitpod support
 
 ## 🎉 Get started
 
