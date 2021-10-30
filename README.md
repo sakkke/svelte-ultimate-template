@@ -31,6 +31,43 @@ A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
 - [ ] Source map support for CSS
 - [x] Gitpod support
 
+## 🎨 App structure
+
+```console
+$ tree src
+src
+├── App.svelte
+├── assets
+│   ├── android-chrome-192x192.png
+│   ├── android-chrome-512x512.png
+│   ├── apple-touch-icon.png
+│   ├── favicon-16x16.png
+│   ├── favicon-32x32.png
+│   ├── maskable_icon.png
+│   ├── maskable_icon_x128.png
+│   ├── maskable_icon_x192.png
+│   ├── maskable_icon_x384.png
+│   ├── maskable_icon_x48.png
+│   ├── maskable_icon_x512.png
+│   ├── maskable_icon_x72.png
+│   ├── maskable_icon_x96.png
+│   ├── safari-pinned-tab.svg
+│   └── svelte-typescript-sugarss.svg
+├── components
+│   ├── Counter.svelte
+│   └── Counter.test.ts
+├── favicon.ico
+├── index.html
+├── main.ts
+├── routes
+│   ├── Home.svelte
+│   └── NotFound.svelte
+├── site.webmanifest
+└── sw.ts
+
+3 directories, 25 files
+```
+
 ## 🎉 Get started (automatic if using Gitpod)
 
 **Requires:**
