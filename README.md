@@ -67,6 +67,15 @@ npm run lint:watch
 npm run lint:style:watch
 ```
 
+## 🔰 Checklist
+
+- [ ] Check or update `./LICENSE`
+- [ ] Update `name`, `description`, `author` in `./package.json`
+- [ ] Update title in `./src/index.html`
+- [ ] Update assets in `./src/assets` and `./public`
+- [ ] Update `./src/site.webmanifest`
+- [ ] Update `./README.md`
+
 ## 🚀 Deploy
 
 `.github/workflows/main.yml`
