@@ -29,7 +29,7 @@ A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
 - [ ] Source map support for CSS
 - [x] Gitpod support
 
-## 🎉 Get started
+## 🎉 Get started (automatic if using Gitpod)
 
 **Requires:**
 
