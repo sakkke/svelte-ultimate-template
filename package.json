@@ -13,8 +13,8 @@
     "lint:style": "stylelint -f verbose '**/*.svelte'",
     "lint:style:watch": "onchange '**/*.svelte' -- run-s cmd:clear lint:style",
     "lint:watch": "esw --clear --color --ext .js,.svelte,.ts --ignore-path .eslintignore -w '**/*.{js,svelte,ts}'",
-    "serve": "parcel serve --dist-dir public --public-url ./",
-    "start": "parcel --dist-dir public --public-url ./",
+    "serve": "parcel serve --dist-dir public",
+    "start": "parcel --dist-dir public",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
