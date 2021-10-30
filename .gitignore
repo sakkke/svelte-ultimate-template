@@ -2,3 +2,4 @@
 /node_modules/
 /public/*
 !/public/browserconfig.xml
+!/public/mstile-150x150.png

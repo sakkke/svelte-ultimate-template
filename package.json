@@ -5,7 +5,7 @@
   "source": "src/index.html",
   "scripts": {
     "build": "parcel build --dist-dir public --public-url ./",
-    "clean": "find public -type f | grep -v public/browserconfig.xml | xargs rm",
+    "clean": "find public -type f | grep -v public/browserconfig.xml | grep -v public/mstile-150x150.png | xargs rm",
     "cmd:clear": "clear",
     "dev": "tmux new \\; send 'npm run lint:watch' C-m \\; splitw \\; send 'npm run lint:style:watch' C-m \\; splitw \\; send 'npm run test:watch' C-m \\; selectl even-horizontal \\; splitw -bf \\; send 'npm run serve' C-m",
     "lint": "eslint '**/*.svelte'",
