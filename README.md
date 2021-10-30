@@ -43,6 +43,7 @@ src
 │   ├── apple-touch-icon.png
 │   ├── favicon-16x16.png
 │   ├── favicon-32x32.png
+│   ├── favicon.ico
 │   ├── maskable_icon.png
 │   ├── maskable_icon_x128.png
 │   ├── maskable_icon_x192.png
@@ -56,7 +57,6 @@ src
 ├── components
 │   ├── Counter.svelte
 │   └── Counter.test.ts
-├── favicon.ico
 ├── index.html
 ├── main.ts
 ├── routes
