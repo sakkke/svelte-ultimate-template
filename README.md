@@ -4,7 +4,7 @@
 
 ![svelte-typescript-sugarss](src/assets/svelte-typescript-sugarss.svg)
 
-A starter template for Progressive Web App with Svelte + TypeScript + SugarSS
+A starter template for Progressive Web App with **Svelte** + **TypeScript** + **SugarSS**
 
 [Use this template on GitHub](https://github.com/sakkke/svelte-ultimate-template/generate)
 
